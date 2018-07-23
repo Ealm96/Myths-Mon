@@ -1,0 +1,62 @@
+
+#logo{
+	float: left;
+	width:auto;
+	height: 30px;
+	padding: 3px;
+	margin: 10px 10px 1px 10px;
+}
+
+#navicon{
+	float:right;
+	padding: 5px;
+	margin: 10px;
+}
+nav{
+	margin-right: 10px;
+}
+
+.bar1, .bar2, .bar3{
+	width:25px;
+	height:3px;
+	background-color: #000000;
+	margin:4px 0;
+
+}
+
+nav ul{
+	display: none;
+	list-style-type: none;
+	float: right;
+}
+
+nav ul a{
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 5px;
+}
+.navtoggle{
+	background-color: white;
+}
+
+.navtoggle ul{
+	clear:both;
+	display: inline;
+}
+.navtoggle #navicon{
+	float:right;
+}
+.navtoggle .bar1{
+ -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+.navtoggle .bar2 {
+	opacity: 0;
+}
+
+.navtoggle .bar3 {
+    -webkit-transform: rotate(45deg) translate(-3px, -3px);
+    transform: rotate(45deg) translate(-3px, -3px);
+}
