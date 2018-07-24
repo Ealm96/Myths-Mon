@@ -5,10 +5,8 @@ function myFunction(){
   var p2 = document.forms["myForm"]["psw-repeat"].value;
   if(p1 != p2){
     alert('Passwords do not match!');
-    return false;
   }
   else {
     localStorage.setItem(usrnm, p1);
-    return true;
   }
 }
