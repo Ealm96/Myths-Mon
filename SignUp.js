@@ -6,7 +6,7 @@ function myFunction(){
   if(p1 != p2){
     alert('Passwords do not match!');
   }
-  else {
+  else if (p1 == p2) {
     localStorage.setItem(usrnm, p1);
   }
 }
