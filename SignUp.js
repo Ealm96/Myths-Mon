@@ -1,5 +1,4 @@
 
-
 function myFunction(){
   var usrnm = document.forms["myForm"]["usrnm"].value;
   var p1 = document.forms["myForm"]["psw"].value;
