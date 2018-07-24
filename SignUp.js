@@ -12,9 +12,3 @@ function myFunction(){
     return true;
   }
 }
-
-function validateForm(){
-  if (myFunction()) {
-    console.log("This input is valid.");
-  }
-}
